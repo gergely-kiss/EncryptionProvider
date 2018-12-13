@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 
 @SpringBootApplication
+
+//disable spring security
 @EnableAutoConfiguration(exclude = { SecurityAutoConfiguration.class })
 public class EncryptionProviderApplication {
 
