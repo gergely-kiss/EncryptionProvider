@@ -6,7 +6,7 @@ import javax.persistence.Id;
 
 @Entity
 public class EncryptedPassword {
-	
+
 	/**
 	 * 
 	 */
@@ -51,5 +51,4 @@ public class EncryptedPassword {
 		this.encryption = encryption;
 	}
 
-	
 }
